@@ -13,6 +13,7 @@
             <ul>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#galeria">Galería</a></li>
+								<li><a href="#quienes somos">Quienes somos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -36,6 +37,13 @@
         <img src="imagen3.jpg" alt="Servicio 3">
     </section>
 
+  		<section id="quienes somos">
+        <h2>Nuestra vision y Mision</h2>
+				<p>Conoce mas sobre nuestra vision y mision en este segmento</p>
+				<ul>
+						<li>Nuestra Visión es: Ser la empresa líder en el sector eléctrico de Guatemala, guiados por los principios de Dios, brindando soluciones innovadoras con integridad, excelencia y un compromiso firme con el bienestar de nuestra comunidad.</li>
+						<li>Misión: Servir a Dios y a nuestro prójimo a través de soluciones eléctricas seguras y eficientes, trabajando con honestidad, responsabilidad y amor, para iluminar hogares, empresas y corazones, contribuyendo al desarrollo de nuestra nación con fe y dedicación.</li>
+				</ul>
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Para más información, contáctanos al correo: jvelaunelcom@hotmail.com</p>
