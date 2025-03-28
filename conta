@@ -1,0 +1,45 @@
+print ("Hola, este programa es para la contabilidad de Unelcom")
+
+def main():
+    # Inicializar lista para almacenar las facturas
+    facturas = []
+
+    while True:
+        print("\n--- Menú de Facturación ---")
+        print("1. Ingresar factura")
+        print("2. Mostrar facturas")
+        print("3. Salir")
+        
+        opcion = input("Selecciona una opción (1-3): ")
+
+        if opcion == '1':
+            # Ingresar datos de la factura
+            numero_factura = input("Ingresa el número de factura: ")
+            fecha_factura = input("Ingresa la fecha de la factura (DD/MM/AAAA): ")
+            nombre_emisor = input("Ingresa el nombre del emisor: ")
+
+            # Crear un diccionario para la factura
+            factura = {
+                'numero': numero_factura,
+                'fecha': fecha_factura,
+                'emisor': nombre_emisor
+            }
+
+            # Agregar la factura a la lista
+            facturas.append(factura)
+            print(f"Factura {numero_factura} registrada.")
+
+        elif opcion == '2':
+            # Mostrar todas las facturas
+            print("\n--- Lista de Facturas ---")
+            for factura in facturas:
+                print(f"Número de factura: {factura['numero']}, Fecha: {factura['fecha']}, Emisor: {factura['emisor']}")
+        
+        elif opcion == '3':
+            print("Saliendo del programa...")
+            break
+        
+        else:
+            print("Opción no válida. Por favor, selecciona una opción del 1 al 3.")
+
+if __name__ == "__main
